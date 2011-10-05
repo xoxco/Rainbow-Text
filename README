@@ -1,5 +1,8 @@
 A jQuery plugin for creating rainbow or gradient text
 
+See an example:
+
+http://xoxco.com/projects/code/rainbow/
 
 $('#foo').rainbow({
 
