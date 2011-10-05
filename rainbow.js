@@ -57,7 +57,6 @@
 			
 				(
 					function(obj,interval) {
-						console.log("setting interval to " + interval);
 						var options = $(obj).data('options');
 						var i = setTimeout(function() {
 							$.fn.rainbow.shift(obj);
