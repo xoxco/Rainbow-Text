@@ -21,18 +21,7 @@
 			
 		});
 	}
-	
-	$.fn.rainbowStop = function() {
-	
-		this.each(function() {
-			var options = $(this).data('option');
-			if (options.interval) {
-				clearInterval(options.interval);
-				options.interval = null;
-			}
-		
-		});	
-	}
+
 		
 	$.fn.rainbow.render = function(obj) {
 	
