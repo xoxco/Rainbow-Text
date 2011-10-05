@@ -1,0 +1,28 @@
+<head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="rainbow.js"></script>
+	<script>
+	
+		$(function() {
+		
+		
+			$('#foo').rainbow({animate:true,animateInterval:100,colors:['#FF0000','#f26522','#fff200','#00a651','#28abe2','#2e3192','#6868ff']});
+			$('#bar').rainbow({animate:true,animateInterval:50,pauseLength:500,pad:true,colors:['rgb(153, 204, 255);','rgb(173, 224, 255);','rgb(193, 244, 255);','rgb(213, 264, 255);','rgb(193, 244, 255);','rgb(173, 224, 255);','rgb(153, 204, 255);']});
+			$('#baz').rainbow({animate:true,animateInterval:10,colors:['#FF0000','#f26522','#fff200','#00a651','#28abe2','#2e3192','#6868ff']});
+		
+		
+		});
+	
+	</script>
+	<style>
+	
+		h1 { font-size: 60px;}
+	</style>
+</head>
+<body>
+
+	<h1 id="foo">RAINBOW!!!</h1>
+	<h1 id="bar">METALLIC SHINY!!</h1>
+	<h1 id="baz">TEXT!!!!!</h1>
+
+</body>
