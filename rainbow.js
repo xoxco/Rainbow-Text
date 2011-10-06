@@ -25,8 +25,10 @@
 	$.fn.pauseRainbow = function() {
 		this.each(function() {
 			var options = $(this).data('options');
-			options.animate = false;
-			$(this).data('options',options);		
+			if (options) {
+				options.animate = false;
+				$(this).data('options',options);		
+			}
 		});
 	}
 
@@ -34,9 +36,11 @@
 	$.fn.resumeRainbow = function() {
 		this.each(function() {
 			var options = $(this).data('options');
-			options.animate = true;
-			$(this).data('options',options);		
-			$.fn.rainbow.render(this);
+			if (options) {
+				options.animate = true;
+				$(this).data('options',options);		
+				$.fn.rainbow.render(this);
+			}
 		});
 	}
 
