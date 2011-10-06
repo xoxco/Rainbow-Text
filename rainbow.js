@@ -25,8 +25,8 @@
 		this.each(function() {
 			var options = $(this).data('options');
 			if (options) {
-			options.animate = false;
-			$(this).data('options',options);		
+				options.animate = false;
+				$(this).data('options',options);		
 			}
 		});
 	}
@@ -36,9 +36,9 @@
 		this.each(function() {
 			var options = $(this).data('options');
 			if (options) {
-			options.animate = true;
-			$(this).data('options',options);		
-			$.fn.rainbow.render(this);
+				options.animate = true;
+				$(this).data('options',options);		
+				$.fn.rainbow.render(this);
 			}
 		});
 	}
