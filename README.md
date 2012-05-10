@@ -6,6 +6,8 @@ A jQuery plugin for creating rainbow or gradient text
 
 [View Demo](http://xoxco.com/projects/code/rainbow/)
 
+[Test it yourself using this jsFiddle Demo](http://jsfiddle.net/ajVzR/)
+
 Created by [XOXCO](http://xoxco.com)
 
 
